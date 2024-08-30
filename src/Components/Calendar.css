@@ -1,0 +1,136 @@
+/* body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    height: 100vh;
+    background-color: #f4f4f4;
+    overflow: hidden;
+}
+
+.bg {
+    position: fixed;
+    inset: 0;
+    z-index: -1;
+    background: linear-gradient(#23004a55, #23004a99), 
+                url("https://media.idownloadblog.com/wp-content/uploads/2021/06/macOS-Monterey-wallpaper-Dark.jpg") center center / cover;
+}
+
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 60px;
+    background: rgba(35, 0, 74, 0.8);
+    display: flex;
+    flex-direction: column;
+    padding: 0.5rem;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+    z-index: 10;
+}
+
+nav > a {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    height: 3.5rem;
+    border-radius: 0.75rem;
+    font-size: 1.5rem;
+    text-decoration: none;
+    margin-bottom: 10px;
+}
+
+nav > a:after {
+    position: absolute;
+    content: "";
+    left: 0.125rem;
+    top: 50%;
+    transform: translateY(-50%);
+    height: 0rem;
+    width: 0.25rem;
+    border-radius: 1rem;
+    background: #ffca28;
+    transition: height 200ms ease, box-shadow 200ms ease;
+}
+
+nav > a:hover {
+    background: rgba(255, 255, 255, 0.1);
+}
+
+nav > a:hover:after, nav > a.active:after {
+    height: 2.5rem;
+    box-shadow: 0 0 7px 1px #ffca28;
+}
+
+nav > .navspacer {
+    flex-grow: 1;
+}
+
+.calendar-container {
+    margin-left: 75px;
+    width: calc(100% - 60px); 
+    max-width: 100%;
+    padding: 10px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    overflow-y: auto; 
+    height: 100vh;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.nav-button {
+    background-color: #370F53;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.nav-button:hover {
+    background-color: #5A1F78;
+}
+
+#currentWeek {
+    font-size: 18px;
+}
+
+.calendar {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.calendar th, .calendar td {
+    border: 1px solid #ddd;
+    text-align: center;
+    padding: 8px;
+}
+
+.calendar th {
+    background-color: #f4f4f4;
+    font-weight: bold;
+}
+
+.calendar td {
+    height: 50px;
+    vertical-align: top;
+}
+
+.event {
+    background-color: #f8d7da;
+    color: #721c24;
+    padding: 5px;
+    margin: 2px 0;
+    border-radius: 4px;
+    border: 1px solid #f5c6cb;
+    font-size: 14px;
+    display: inline-block;
+} */

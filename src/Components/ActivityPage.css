@@ -1,0 +1,43 @@
+.activity-container {
+    display: flex;
+    flex-direction: column;
+    padding: 20px; 
+    justify-content: center;
+    align-items: center;
+}
+
+.activity-text{
+   margin-left: 30px;
+    justify-content: left;
+    text-align: left;
+   
+}
+.activity-heading {
+    font-size: 35px; 
+    text-align: left;
+    margin-bottom: 10px; 
+}
+
+.activity-content {
+    margin-right: 62%;
+    text-align: justify;
+/* margin-right: 35px; */
+    margin-bottom: 20px; 
+}
+
+.activity-image {
+    justify-content: center;
+    align-items: center;
+    max-width: 100%;
+    height: auto; 
+    margin-top: 20px; 
+}
+
+@media (max-width: 900px) {
+    .activity-content {
+        margin-right: 9%;
+        text-align: justify;
+    /* margin-right: 35px; */
+        margin-bottom: 20px; 
+    }
+}

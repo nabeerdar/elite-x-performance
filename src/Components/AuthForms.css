@@ -1,0 +1,152 @@
+/* .auth-container {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.video-background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+
+.video-background video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+
+.input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 25px;
+    border: 1px solid #ccc;
+    border-radius: 50px;
+}
+
+.button {
+    width: 100%;
+    padding: 10px;
+    background: #007bff;
+    border: none;
+    color: #fff;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+.button:hover {
+    background: #0056b3;
+}
+
+.message {
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.message.success {
+    color: green;
+}
+
+.message.error {
+    color: red;
+}
+
+.group {
+    margin-bottom: 20px;
+}
+
+
+
+
+.auth-container {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.video-background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+
+.video-background video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.login-wrap {
+ 
+    top: 10%;
+    width: 50%;
+    max-width: 525px;
+    position: relative;
+    margin: auto;
+    perspective: 1000px; 
+}
+
+.login-form-container {
+    
+    position: relative;
+    width: 100%;
+    height: 100%;
+    transform-style: preserve-3d;
+    transition: transform 0.6s;
+}
+
+.sign-in-htm, .sign-up-htm {
+    
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+}
+
+
+
+.sign-up-htm {
+    
+    background: rgba(255, 255, 255, 0.9);
+   
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    transform: rotateY(180deg);
+}
+
+input[type="radio"] {
+    display:none;
+}
+
+input[type="radio"]:checked + label + .login-form-container {
+    transform: rotateY(180deg);
+}
+
+.tab {
+
+    cursor: pointer;
+    padding: 10px 15px;
+    display: inline-block;
+    background: #ffffff;
+    border-radius: 5px;
+    margin: 0 5px;
+    font-size: large;
+}
+
+.tab:hover {
+    background:#007bff;
+    color: #ffffff;
+}
+
+
+   */

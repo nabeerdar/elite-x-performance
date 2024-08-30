@@ -1,0 +1,432 @@
+/* .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    margin: 15px 20px;
+    font-size: x-large;
+}
+
+.responsive-menu {
+    display: none;
+    top: 100%;
+    left: 0;
+    right: 0;
+    z-index: 1000; 
+    color: #fff;
+}
+
+.nav-tabs, .social-icons-navbar {
+    display: flex;
+    align-items: center; 
+}
+
+.tab {
+    margin-right: 30px; 
+    position: relative;
+}
+
+.icon {
+    margin-left: 20px; 
+}
+
+.menu-toggle {
+    display: none;
+    cursor: pointer;
+    margin-left: 20px;
+}
+
+.dropdown-menu {
+    position: absolute;
+    top: 100%; 
+    left: 0;
+    background-color: white;
+    border-radius: 2px;
+    display: none;
+    flex-direction: column;
+    padding: 7px;
+    z-index: 1000;
+}
+
+.tab:hover .dropdown-menu, .tab1:hover .dropdown-menu {
+    display: flex;
+    background-color: rgb(184, 128, 236); 
+}
+
+.dropdown-item {
+    padding: 2px 8px;
+    cursor: pointer;
+    color: black;
+    text-decoration: none;
+}
+
+.tab, .tab1, .dropdown-item {
+    color: black;
+    text-decoration: none; 
+}
+
+.tab1 {
+    color: white; 
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.tab:hover, .tab1:hover, .dropdown-item:hover {
+    color: rgb(217, 250, 232);
+}
+
+.tab:hover {
+    background-color: rgb(217, 250, 232);
+    color: rgb(140, 19, 253); 
+}
+
+.social-icons-navbar .icon {
+    color: black; 
+}
+
+.social-icons1 .icon {
+    color: white;
+}
+
+.social-icons-navbar .icon:hover, .social-icons1 .icon:hover {
+    color: #bbb; 
+}
+
+
+
+@media (max-width: 768px) {
+    .mobile-caret path {
+        color: white;
+    }
+    .mobile-caret {
+        display: inline-block;
+        margin-left: 0.8em;
+        vertical-align: middle;
+    }
+    .tab {
+        display: none;
+    }
+    .tab1 {
+        display: grid;
+        padding: 5px 0;
+        position: relative;
+    }
+
+    .tab1, .tab1-dropdown{
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+
+    .social-icons1 {
+        display: flex;
+        margin-top: 4%;
+    }
+    .social-icons-navbar {
+        display: none;
+    }
+    .menu-toggle {
+        color: 'pink';
+        display: block;
+    }
+    .menu-toggle svg {
+        margin-top: 10px;
+        margin-right: 10px;
+        transform: scale(2.3);
+    }
+    .dropdown-menu {
+        position: absolute;
+        top: 100%; 
+        left: 0;
+        background-color: white;
+        display: none;
+        flex-direction: column;
+        z-index: 1000;
+    }
+
+    .tab1:hover .dropdown-menu {
+        display: flex; 
+    }
+
+  
+    .tab1 .dropdown-menu {
+        position: absolute;
+        top: 100%;
+        left: 0;
+        background-color: white;
+        display: none;
+        flex-direction: column;
+        z-index: 1000;
+    }
+
+  
+    .tab1:hover + .social-icons1 {
+        margin-top: 20px; 
+    }
+    .responsive-menu {
+        font-size: x-large;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        height: auto;
+        background-color: rgb(0, 0, 0);
+        color: #fff;
+        padding: 10px;
+        top: 100%;
+        left: 0;
+        right: 0;
+        z-index: 1; 
+    }
+
+    .responsive-menu .tab {
+        margin-bottom: 10px; 
+    }
+
+    .responsive-menu .icon1-navbar {
+        margin-left: 0;
+        margin-right: 10px;
+        padding-left: 0.6em;
+        padding-right: 0.6em;
+    }
+
+    .social-icons1 {
+        margin-top: 20px; 
+    }
+
+    .social-icons1 path {
+        color: white;
+    }
+}
+
+@media (max-width: 668px) {
+    .menu-toggle svg {
+        margin-top: 8px;
+        margin-right: 8px;
+        transform: scale(1.8); 
+    }
+}
+
+@media (max-width: 600px) {
+    .menu-toggle svg {
+        margin-top: 2px;
+        margin-right: 2px;
+        transform: scale(1.5);
+    }
+} */
+ 
+
+
+
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    margin: 15px 20px;
+    font-size: x-large;
+    padding: 10px;
+}
+
+.logo-name {
+    display: flex; 
+    align-items: center;
+}
+
+.logo-name img {
+    height: 50px; 
+    width: auto; 
+    margin-right: 10px;
+}
+
+
+.nav-tabs, .social-icons-navbar {
+    display: flex;
+    align-items: center; 
+}
+
+.tab {
+    font-size: 20px;
+    margin-right: 10px; 
+    position: relative;
+    color: rgb(0, 0, 0);
+    text-decoration: none; 
+    padding: 5px 2px;
+}
+
+.tab:hover, .dropdown-item:hover {
+    color: #A5BF1E; 
+}
+
+.dropdown-menu {
+    position: absolute;
+    top: 100%; 
+    left: 0;
+    background-color: white;
+    border-radius: 2px;
+    display: none;
+    flex-direction: column;
+    padding: 7px;
+    z-index: 1000;
+
+}
+
+.dropdown-item {
+    padding: 2px 8px;
+    cursor: pointer;
+    color: rgb(31, 30, 30);
+    text-decoration: none;
+}
+
+.tab:hover .dropdown-menu, .tab1:hover .dropdown-menu {
+    display: flex;
+}
+
+
+.tab + .tab {
+    margin-left: 40px; 
+}
+
+.icon {
+    margin-left: 20px;
+    color: #A5BF1E; 
+    font-size: 1.3em;
+}
+
+.icon:hover {
+    color: white; 
+}
+
+.menu-toggle {
+    display: none;
+    cursor: pointer;
+    margin-left: 20px;
+}
+
+.responsive-menu {
+    display: none;
+    top: 100%;
+    left: 0;
+    right: 0;
+    z-index: 1000; 
+    color: #fff;
+}
+
+@media (max-width: 850px) {
+    .mobile-caret path {
+        color: white;
+    }
+    .mobile-caret {
+        display: inline-block;
+        margin-left: 0.8em;
+        vertical-align: middle;
+    }
+    .tab {
+        display: none;
+    }
+    .tab1 {
+        display: grid;
+        padding: 5px 0;
+        position: relative;
+    }
+
+    .tab1, .tab1-dropdown {
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+
+    .social-icons1 {
+        display: flex;
+        margin-top: 4%;
+    }
+    .social-icons-navbar {
+        display: none;
+    }
+    .menu-toggle {
+        color: 'pink';
+        display: block;
+    }
+    .menu-toggle svg {
+        margin-top: 10px;
+        margin-right: 10px;
+        transform: scale(1.5);
+    }
+    .dropdown-menu {
+        position: absolute;
+        top: 100%; 
+        left: 0;
+        background-color: white;
+        display: none;
+        flex-direction: column;
+        z-index: 1000;
+    }
+
+    .tab1:hover .dropdown-menu {
+        display: flex; 
+    }
+
+  
+    .tab1 .dropdown-menu {
+        position: absolute;
+        top: 100%;
+        left: 0;
+        background-color: white;
+        display: none;
+        flex-direction: column;
+        z-index: 1000;
+    }
+
+  
+    .tab1:hover + .social-icons1 {
+        margin-top: 20px; 
+    }
+    .responsive-menu {
+        font-size: x-large;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        height: auto;
+        background-color: rgb(0, 0, 0);
+        color: #fff;
+        padding: 10px;
+        top: 100%;
+        left: 0;
+        right: 0;
+        z-index: 1; 
+    }
+
+    .responsive-menu .tab {
+        margin-bottom: 10px; 
+    }
+
+    .responsive-menu .icon1-navbar {
+        margin-left: 0;
+        margin-right: 10px;
+        padding-left: 0.6em;
+        padding-right: 0.6em;
+    }
+
+    .social-icons1 {
+        margin-top: 20px; 
+    }
+
+    .social-icons1 path {
+        color: white;
+    }
+}
+
+@media (max-width: 668px) {
+    .menu-toggle svg {
+        margin-top: 8px;
+        margin-right: 8px;
+        transform: scale(1.5); 
+    }
+}
+
+@media (max-width: 600px) {
+    .menu-toggle svg {
+        margin-top: 2px;
+        margin-right: 2px;
+        transform: scale(1.5);
+    }
+}

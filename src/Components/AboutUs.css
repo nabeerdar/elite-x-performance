@@ -1,0 +1,234 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600&display=swap');
+
+.AboutUs-top-section {
+      background-size: cover;
+      background-position: center;
+      padding: 190px 70px; /* Increase height of top section */
+      text-align: left;
+      color: white;
+      position: relative;
+      margin-bottom: 0; /* Remove bottom margin */
+  }
+  
+  .AboutUs-top-section::after {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-color: rgba(0, 0, 0, 0.5); 
+      z-index: 0;
+  }
+  
+  .AboutUs-top-content {
+      position: relative;
+      z-index: 1;
+  }
+  
+  .AboutUs-top-heading {
+      font-size: 3em;
+      margin-bottom: 20px;
+  }
+  
+  .AboutUs-top-subheading {
+      font-size: 2em;
+      margin-bottom: 20px;
+  }
+  
+  .AboutUs-top-paragraph {
+      margin-bottom: 20px;
+  }
+  
+  .AboutUs-enroll-btn {
+      background-color: #A5BF1E;
+      color: white;
+      padding: 10px 20px;
+      border: none;
+      cursor: pointer;
+      font-size: 16px;
+  }
+  
+  .AboutUs-cards-section {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-around;
+      background-color: #f0f0f0;
+      padding: 100px 60px; /* Remove left-right padding */
+      margin-bottom: 0; /* Remove bottom margin */
+  }
+  
+  .AboutUs-card {
+      width: 30%;
+      margin-bottom: 20px;
+      padding: 20px;
+      /* background-color: aliceblue; */
+      text-align: center;
+      border-radius: 10px;
+  }
+  
+  .AboutUs-card-icon {
+      width: 60px;
+      height: 60px;
+      background-size: cover;
+      background-position: center;
+      border-radius: 50%;
+      margin: 0 auto 20px;
+  }
+  
+  .AboutUs-card-heading {
+      font-size: 1.5em;
+      margin-bottom: 10px;
+      
+  }
+  
+  .AboutUs-card-paragraph {
+      margin-bottom: 20px;
+  }
+  
+  .AboutUs-read-more-btn {
+      background-color: #A5BF1E;
+      color: white;
+      padding: 10px 20px;
+      border: none;
+      cursor: pointer;
+  }
+  
+  .AboutUs-why-choose-us {
+  
+      display: flex;
+      justify-content: space-between;
+      padding: 40px 100px; /* Remove left-right padding */
+      margin-bottom: 0; /* Remove bottom margin */
+  }
+  
+  .AboutUs-left-content {
+      max-width: 40%;
+      padding-right: 20px; /* Add some padding to the right to align text with image */
+  }
+  .AboutUs-left-content h2 {
+font-size: 2.5rem;
+}
+.AboutUs-subheading{
+    font-size: 1.5rem;
+    color: #A5BF1E;
+    }
+  .AboutUs-right-content {
+      max-width: 40%;
+  }
+  
+  .AboutUs-choose-us-img {
+      width: 100%;
+      height: auto;
+  }
+  
+  .AboutUs-testimonials-section {
+         background-color: #292828;
+      padding: 40px 0; /* Remove left-right padding */
+      text-align: center;
+      margin-bottom: 0; /* Remove bottom margin */
+  }
+  
+  .AboutUs-customer-heading {
+      font-family: 'Cursive', sans-serif; 
+      font-size: 4em;
+      font-family: 'Dancing Script', cursive;
+      color: #A5BF1E;
+  }
+  
+  .AboutUs-testimonials-heading {
+      font-size: 3em;
+      margin-top: -60px;
+      margin-bottom: 40px;
+      color: white;
+  }
+  
+  .AboutUs-testimonial-cards {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-around;
+      flex-direction: row; /* Testimonials in row layout by default */
+  }
+  
+  .AboutUs-testimonial-card {
+      width: 25%;
+      margin-bottom: 20px;
+      padding: 20px;
+      text-align: center;
+      background-color: white;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(130, 129, 129, 0.398); /* Add shadow to testimonial cards */
+  }
+  
+  .AboutUs-testimonial-icon {
+      position: relative;
+  }
+  
+  .AboutUs-testimonial-img {
+      width: 80px;
+      height: 80px;
+      border-radius: 50%;
+      margin-bottom: 10px;
+  }
+  
+  .AboutUs-testimonial-quote {
+      position: absolute;
+      top: 0;
+      left: 0;
+      font-size: 3em;
+      color: #A5BF1E;
+  }
+  
+  .AboutUs-testimonial-name {
+      font-size: 1.2em;
+      margin-bottom: 10px;
+  }
+  
+  .AboutUs-testimonial-paragraph {
+      font-size: 1em;
+      color: #333;
+  }
+  
+  /* Responsive Styles */
+@media only screen and (max-width: 768px) {
+  
+    /* Cards Section */
+    .AboutUs-cards-section {
+        margin: 0px;
+      flex-direction: column;
+      align-items: center;
+    }
+    
+    .AboutUs-card {
+      width: 90%; /* Adjust card width to take up more space */
+      margin-bottom: 30px;
+    }
+  
+    /* Why Choose Us Section */
+    .AboutUs-why-choose-us {
+      flex-direction: column;
+      align-items: center;
+      padding: 40px 50px;
+    }
+  
+    .AboutUs-left-content,
+    .AboutUs-right-content {
+    
+      max-width: 100%; /* Make both left and right content take full width */
+      text-align: center; /* Center text for better presentation */
+      padding-right: 0; /* Remove padding on smaller screens */
+      margin-bottom: 20px; /* Add margin to separate the sections */
+    }
+  
+    /* Testimonials Section */
+    .AboutUs-testimonial-cards {
+      flex-direction: column; /* Stack testimonials in a column layout */
+      align-items: center;
+    }
+    
+    .AboutUs-testimonial-card {
+      width: 80%; /* Adjust testimonial card width */
+      margin-bottom: 20px; /* Add space between cards */
+    }
+  }
+  
