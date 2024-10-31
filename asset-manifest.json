@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.bb68a9c1.css",
-    "main.js": "/static/js/main.253c6ae1.js",
+    "main.css": "/static/css/main.0ec0bdd9.css",
+    "main.js": "/static/js/main.f072c4e5.js",
     "static/js/453.080c9f14.chunk.js": "/static/js/453.080c9f14.chunk.js",
     "static/media/video4.mp4": "/static/media/video4.fe33bc73ee6d878096f0.mp4",
     "static/media/video5.mp4": "/static/media/video5.656eb28481137e13a569.mp4",
@@ -14,20 +14,20 @@
     "static/media/logo.png": "/static/media/logo.e5e134f91b8e6187c3cd.png",
     "static/media/mobile.png": "/static/media/mobile.f99c1792faf5b0a893e4.png",
     "static/media/image1.jpg": "/static/media/image1.181d2d1a6d844aa75492.jpg",
-    "static/media/gym3.png": "/static/media/gym3.cf05bf0afd0bc1414275.png",
-    "static/media/gym1.png": "/static/media/gym1.3f66d492cbe81e559083.png",
+    "static/media/gym3-red.png": "/static/media/gym3-red.5e2cb67fd828dd98e8c9.png",
+    "static/media/gym1-red.png": "/static/media/gym1-red.b0b74d05d7eb978d5029.png",
+    "static/media/gym2-red.png": "/static/media/gym2-red.54fce8175e308df726f1.png",
     "static/media/john.png": "/static/media/john.171d096f60fe69cc9589.png",
-    "static/media/gym2.png": "/static/media/gym2.94180abb745cef544e29.png",
     "static/media/Aboutusbg.jpg": "/static/media/Aboutusbg.a36e7d658eed1662dbb9.jpg",
     "static/media/jane.png": "/static/media/jane.2b717e1010cfb167f6bb.png",
     "static/media/black button.png": "/static/media/black button.3c09257b4d6bc4fcd7e1.png",
     "index.html": "/index.html",
-    "main.bb68a9c1.css.map": "/static/css/main.bb68a9c1.css.map",
-    "main.253c6ae1.js.map": "/static/js/main.253c6ae1.js.map",
+    "main.0ec0bdd9.css.map": "/static/css/main.0ec0bdd9.css.map",
+    "main.f072c4e5.js.map": "/static/js/main.f072c4e5.js.map",
     "453.080c9f14.chunk.js.map": "/static/js/453.080c9f14.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.bb68a9c1.css",
-    "static/js/main.253c6ae1.js"
+    "static/css/main.0ec0bdd9.css",
+    "static/js/main.f072c4e5.js"
   ]
 }
